@@ -3,8 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/jbpm-console/maven2/</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
-        <url>http://10.200.117.30:9081/repository/maven-group/</url>
+        <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
       </metadata>
     </repository>
@@ -12,7 +20,7 @@
       <include>true</include>
       <metadata>
         <id>local</id>
-        <url>/root/.m2/repository</url>
+        <url>C:\Users\HP/.m2/repository</url>
         <source>LOCAL</source>
       </metadata>
     </repository>
